@@ -1,0 +1,161 @@
+*{
+  padding: 0px;
+  margin: 0px;  
+}
+html{
+    background-image: url(../img/Buena_Village_Shore.png);
+}
+body{
+    width: 1000px;
+    background-color: wheat;
+    height: 1450px;
+    margin: auto;
+}
+header{
+    width: 1000px;
+    height: 270px;
+    background-image: url(../img/mushokugod.jpg);
+    background-size: 100% 100%;
+    animation: animacion 7s infinite ;
+}
+nav{
+    margin:auto;
+    width: 1000px;
+    height: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 156, 25);
+    
+}
+.menu1 li a {
+    background-color: rgb(226, 156, 25);
+    color: rgb(229, 221, 182);
+    text-decoration: none;
+   
+    padding: 5px 10px;
+    display: block;
+    
+}
+.menu1 > li{
+    float: left;
+    text-align: center;
+}
+.menu1 li a:hover {
+    background-color: rgb(226, 176, 82);
+}
+.menu1 li ul{
+    display: none;
+    position: absolute;
+    min-width: 130px;
+}
+.menu1 li:hover > ul{
+    display: block;
+}
+.menu1 li ul li{
+    position: relative;
+}
+.menu1 li ul li ul{
+    right: -130px;
+    top: 0px;
+
+}
+
+ul,ol{
+    list-style: none;
+}
+#ladol{
+    width: 350px; 
+    float: left; 
+  
+}
+#lador{
+    width: 650px; 
+  
+    float: right;
+}
+main{
+    width: 1000px;
+    height: 1060px;
+}
+
+
+aside{
+    padding: 50 px;
+ width: 350px;  
+ height: 535px;
+ background-color: rgb(252, 196, 127);
+ float: left;
+}
+.nomb{
+    padding-left: 70px;
+    padding-top: 5px;
+    
+}
+#menu2{
+    width: 350px;  
+    height: 590px;
+    background-color: rgb(221, 134, 27);
+    float:right ;
+}
+#contenido1{
+    width: 650px;
+    height: 345px;
+ background-color: rgb(23, 133, 207);
+  float: right;
+}
+#foto1{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 175px;
+    height: 300px;
+}
+.nomb{
+    padding-left: 0px;
+    padding-top: 5px;
+    text-align: center;
+}
+#contenido2{
+    width: 650px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+   
+}
+#contenido3{
+    width: 650px;
+    height: 380px;
+    background-color: rgb(253, 44, 44);
+    float: right;
+    
+}
+footer{
+    width: 1000px;
+    height: 30px;
+    background-color: rgb(255, 166, 0);
+    float: left;
+}
+
+@keyframes animacion{
+ 
+    0%, 20%{
+        opacity: 1;
+        background-image: url(../img/mushokugod.jpg); 
+    }
+    21%, 31%{ 
+        opacity: 0.9;
+    }
+    32%, 52%
+    { 
+        opacity: 1;
+        background-image: url(../img/vosoy.png);
+    }
+    53%, 63%{
+        opacity: 0.9;
+    }
+    64%, 84%{
+        opacity: 1;
+        background-image: url(../img/vol10.jpg);
+    }
+   85%, 95%{
+       opacity: 0.9;
+   }
+}
