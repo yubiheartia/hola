@@ -16,7 +16,7 @@ header{
     height: 270px;
     background-image: url(../img/mushokugod.jpg);
     background-size: 100% 100%;
-    animation: animacion 10s infinite ;
+    animation: animacion 20s infinite ;
 }
 nav{
     margin:auto;
